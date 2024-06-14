@@ -2,10 +2,7 @@
 # It can be edited online at https://dandiarchive.org/dandiset/001055
 # and obtained from the dandiarchive.
 '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.7/context.json
-about:
-- identifier: '1'
-  name: Makin
-  schemaKey: GenericType
+about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -46,17 +43,29 @@ description: 'NeuroTask is a benchmark dataset designed to facilitate the develo
   7 tasks across 17 subjects.
 
 
+  Check out the github repository for more resources and some example notebooks: https://github.com/catniplab/NeuroTask/
+
+
   This dataset includes:
 
   - Spike counts per unit
 
   - Behavioral data (hand/cursor position, velocity, force)
 
-  - Events indications'
+  - Events indications
+
+
+
+  '
 ethicsApproval: []
 id: DANDI:001055/draft
 identifier: DANDI:001055
-keywords: []
+keywords:
+- Random Target
+- Macaque
+- Motor cortex
+- Reaching
+- Benchmark
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
@@ -65,7 +74,22 @@ name: 'NeuroTask - Random Target:  A Benchmark Dataset for Multi-Task, -Session 
   -Subject Neural Analysis'
 protocol: []
 relatedResource:
-- {}
+- identifier: https://doi.org/10.5281/zenodo.583331
+  name: Nonhuman Primate Reaching with Multichannel Sensorimotor Cortex Electrophysiology
+    [Data set]
+  relation: dcite:IsDerivedFrom
+  repository: Nonhuman Primate Reaching with Multichannel Sensorimotor Cortex Electrophysiology
+  resourceType: dcite:Dataset
+  schemaKey: Resource
+  url: https://zenodo.org/records/583331
+- identifier: doi:10.1088/1741-2552/aa9e95
+  name: ' Superior arm-movement decoding from cortex with a new, unsupervised-learning
+    algorithm.'
+  relation: dcite:IsPublishedIn
+  repository: ' J Neural Eng 15(2)'
+  resourceType: dcite:JournalArticle
+  schemaKey: Resource
+  url: ''
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.7

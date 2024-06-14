@@ -89,7 +89,7 @@ relatedResource:
   repository: ' J Neural Eng 15(2)'
   resourceType: dcite:JournalArticle
   schemaKey: Resource
-  url: ''
+  url: https://iopscience.iop.org/article/10.1088/1741-2552/aa9e95
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.7

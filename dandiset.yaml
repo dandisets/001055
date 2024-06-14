@@ -18,9 +18,9 @@ assetsSummary:
   measurementTechnique:
   - name: analytical technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 14352952946
-  numberOfFiles: 34
-  numberOfSubjects: 1
+  numberOfBytes: 42720717140
+  numberOfFiles: 47
+  numberOfSubjects: 2
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_9544
@@ -28,9 +28,9 @@ assetsSummary:
     schemaKey: SpeciesType
   variableMeasured:
   - ProcessingModule
-citation: 'Filipe, Carolina (2024) NeuroTask:  A Benchmark Dataset for Multi-Task,
-  -Session and -Subject Neural Analysis (Version draft) [Data set]. DANDI archive.
-  https://dandiarchive.org/dandiset/001055/draft'
+citation: 'Filipe, Carolina (2024) NeuroTask - Random Target:  A Benchmark Dataset
+  for Multi-Task, -Session and -Subject Neural Analysis (Version draft) [Data set].
+  DANDI archive. https://dandiarchive.org/dandiset/001055/draft'
 contributor:
 - affiliation: []
   email: a.carolina.filipe@gmail.com
@@ -61,8 +61,8 @@ license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001055/versions/draft/assets/
-name: 'NeuroTask:  A Benchmark Dataset for Multi-Task, -Session and -Subject Neural
-  Analysis'
+name: 'NeuroTask - Random Target:  A Benchmark Dataset for Multi-Task, -Session and
+  -Subject Neural Analysis'
 protocol: []
 relatedResource:
 - {}
